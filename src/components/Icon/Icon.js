@@ -29,7 +29,7 @@ const Icon = ({ id, size, strokeWidth = 1, ...delegated }) => {
       }}
       {...delegated}
     >
-      <Component color="currentColor" size={size} />
+      <Component color="currentColor" size={size} aria-hidden />
     </Wrapper>
   );
 };
